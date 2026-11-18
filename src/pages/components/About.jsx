@@ -1,14 +1,18 @@
 import "../../style/About.css";
 
-import { SiHtml5, SiCss3 } from "react-icons/si";
-import { RiJavascriptFill } from "react-icons/ri";
-import { FaLaravel, FaReact } from "react-icons/fa";
-import { SiNextdotjs } from "react-icons/si";
+import {
+  SiHtml5,
+  SiCss3,
+  SiNextdotjs,
+  SiNestjs,
+  SiSpringboot,
+  SiMysql,
+  SiPostgresql,
+  SiPostman,
+} from "react-icons/si";
+import { RiJavascriptFill, RiTailwindCssFill } from "react-icons/ri";
+import { FaLaravel, FaReact, FaPhp, FaJava } from "react-icons/fa";
 import { BiLogoGoLang } from "react-icons/bi";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaPhp } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
-import { SiPostman } from "react-icons/si";
 
 export default function About() {
   return (
@@ -54,8 +58,20 @@ export default function About() {
             <small>Next JS</small>
           </div>
           <div className="skill">
+            <SiNestjs />
+            <small>Nest JS</small>
+          </div>
+          <div className="skill">
             <BiLogoGoLang />
             <small>Golang</small>
+          </div>
+          <div className="skill">
+            <FaJava />
+            <small>Java</small>
+          </div>
+          <div className="skill">
+            <SiSpringboot />
+            <small>Spring Boot</small>
           </div>
           <div className="skill">
             <RiTailwindCssFill />
@@ -64,6 +80,10 @@ export default function About() {
           <div className="skill">
             <SiMysql />
             <small>MySQL</small>
+          </div>
+          <div className="skill">
+            <SiPostgresql />
+            <small>PostgreSQL</small>
           </div>
           <div className="skill">
             <SiPostman />

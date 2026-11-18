@@ -1,4 +1,6 @@
 import "../../style/Footer.css";
 export default function Footer() {
-  return <footer>&copy; Moch Falih Fauzan 2024</footer>;
+  const year = new Date().getFullYear();
+
+  return <footer>&copy; Moch Falih Fauzan {year} </footer>;
 }

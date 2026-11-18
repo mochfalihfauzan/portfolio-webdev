@@ -18,6 +18,64 @@ function Experience() {
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
+              date="Januari 2026 - Saat ini"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              // icon={<FaLaravel />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Backend Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                PT. Teknologi Strategis Nusantara - Tangerang, Indonesia{" "}
+                <HiMiniBuildingOffice />
+              </h4>
+              <p className="timeline-placement">
+                (Penempatan : PT Garuda Maintenance Facility Aero Asia Tbk)
+              </p>
+              <ul>
+                <li>
+                  Mengembangkan aplikasi web IT Inventory Pusat Logistik Berikat
+                  di area bandara
+                </li>
+                <li>
+                  Mengembangkan backend untuk aplikasi mobile Material Movement
+                  untuk memonitor pergerakan material di setiap hanggar bandara
+                </li>
+                <li>
+                  Menangani Manage Service dari seluruh aplikasi sistem
+                  perusahaan
+                </li>
+              </ul>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
+              date="Juni 2025 - Desember 2025"
+              iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+              // icon={<FaLaravel />}
+            >
+              <h3 className="vertical-timeline-element-title">
+                Backend Developer
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                PT. Jaya Teknologi International - Tangerang, Indonesia{" "}
+                <HiMiniBuildingOffice />
+              </h4>
+              <p className="timeline-placement">
+                (Penempatan : PT Garuda Maintenance Facility Aero Asia Tbk)
+              </p>
+              <ul>
+                <li>
+                  Mengembangkan dan mengintegrasikan backend adapter untuk
+                  proses pelaporan Bea Cukai menggunakan CEISA API
+                </li>
+                <li>
+                  Mengembangkan backend untuk aplikasi mobile Material Movement
+                  untuk memonitor pergerakan material di setiap hanggar bandara
+                </li>
+              </ul>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work"
               date="Oktober 2024 - Mei 2025"
               iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
               // icon={<FaLaravel />}
